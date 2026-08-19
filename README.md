@@ -14,7 +14,7 @@
 cd ComfyUI/custom_nodes
 git clone https://github.com/JYE-HC/ComfyUI-Director.git
 # 用运行 ComfyUI 的 Python 环境安装依赖：
-/path/to/ComfyUI/.venv/bin/python -m pip install -r ComfyUI-Director/pyproject.toml
+/path/to/ComfyUI/.venv/bin/python -m pip install -r ComfyUI-Director/requirements.txt
 ```
 
 重启 ComfyUI 后，侧栏出现 **Director** 面板，点击"打开 Director"即可在新标签页进入导演台
