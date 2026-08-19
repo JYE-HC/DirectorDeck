@@ -1,0 +1,19 @@
+name: Publish to ComfyUI Registry
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish-node:
+    name: Publish Custom Node to registry
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Publish
+        uses: Comfy-Org/publish-node-action@v1
+        with:
+          # Registry publisher API key, from https://registry.comfy.org
+          # (create publisher "jye-hc", generate an API key, store it as the
+          # REGISTRY_ACCESS_TOKEN repository secret).
+          personal_access_token: ${{ secrets.REGISTRY_ACCESS_TOKEN }}
