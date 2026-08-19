@@ -1,4 +1,4 @@
-"""ComfyUI-Director plugin entry.
+"""DirectorDeck plugin entry.
 
 Embeds the Director Web backend (FastAPI) into the ComfyUI process:
 
@@ -34,7 +34,7 @@ from pathlib import Path
 
 from aiohttp import web
 
-LOGGER = logging.getLogger("ComfyUI-Director")
+LOGGER = logging.getLogger("DirectorDeck")
 
 WEB_DIRECTORY = "./web"
 
@@ -129,7 +129,7 @@ def _load_bundled_nodes() -> None:
         )
     elif turbo_dir.is_dir():
         try:
-            count = _load_node_pack(turbo_dir, "comfyui_director_minimax_h3_turbo")
+            count = _load_node_pack(turbo_dir, "director_deck_minimax_h3_turbo")
             LOGGER.info("Director: registered %d MiniMax-H3-Turbo nodes", count)
         except Exception as exc:  # noqa: BLE001 - recorded for /director/status
             _state.nodes_error = f"MiniMax-H3-Turbo: {type(exc).__name__}: {exc}"
@@ -156,7 +156,7 @@ def _load_bundled_nodes() -> None:
         _state.raylight = "pack_missing"
         return
     try:
-        count = _load_node_pack(raylight_dir, "comfyui_director_raylight")
+        count = _load_node_pack(raylight_dir, "director_deck_raylight")
         _state.raylight = "registered"
         LOGGER.info("Director: registered %d RayLight nodes", count)
     except Exception as exc:  # noqa: BLE001 - recorded for /director/status
@@ -178,7 +178,7 @@ def _internal_port() -> int:
                 candidate += 1
                 continue
         return candidate
-    raise RuntimeError("ComfyUI-Director: no free loopback port for the backend")
+    raise RuntimeError("DirectorDeck: no free loopback port for the backend")
 
 
 def _database_locations() -> tuple[Path, Path]:
@@ -514,4 +514,4 @@ except BaseException:  # noqa: BLE001 - a plugin must not break ComfyUI startup
     import traceback
 
     _state.error = traceback.format_exc(limit=5)
-    LOGGER.exception("ComfyUI-Director plugin initialization failed")
+    LOGGER.exception("DirectorDeck plugin initialization failed")
