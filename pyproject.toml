@@ -13,6 +13,9 @@ dependencies = [
     "anyio<4.10",
 ]
 
+[project.urls]
+Repository = "https://github.com/JYE-HC/ComfyUI-Director"
+
 [tool.comfy]
 PublisherId = "jye-hc"
 DisplayName = "Director"
