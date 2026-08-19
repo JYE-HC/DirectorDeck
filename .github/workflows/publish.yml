@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Publish
-        uses: Comfy-Org/publish-node-action@v1
+        uses: Comfy-Org/publish-node-action@main
         with:
           # Registry publisher API key, from https://registry.comfy.org
           # (create publisher "jye-hc", generate an API key, store it as the
