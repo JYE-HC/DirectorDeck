@@ -1,4 +1,4 @@
-# ComfyUI-Director
+# DirectorDeck
 
 把 [Director](https://github.com/JYE-HC/Director-WebUI) 长视频导演台嵌入 ComfyUI：
 面向 MiniMax H3 的统一时间线创作——资产库、逐段 FL2VA/Ref2VA 配方推导、任务编排、
@@ -6,15 +6,15 @@
 
 ## 安装
 
-**ComfyUI Manager（推荐，上架后）**：搜索 `Director` 一键安装，重启 ComfyUI。
+**ComfyUI Manager（推荐，上架后）**：搜索 `DirectorDeck` 一键安装，重启 ComfyUI。
 
 **手动安装**：
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/JYE-HC/ComfyUI-Director.git
+git clone https://github.com/JYE-HC/DirectorDeck.git
 # 用运行 ComfyUI 的 Python 环境安装依赖：
-/path/to/ComfyUI/.venv/bin/python -m pip install -r ComfyUI-Director/requirements.txt
+/path/to/ComfyUI/.venv/bin/python -m pip install -r DirectorDeck/requirements.txt
 ```
 
 重启 ComfyUI 后，侧栏出现 **Director** 面板，点击"打开 Director"即可在新标签页进入导演台
@@ -27,7 +27,7 @@ git clone https://github.com/JYE-HC/ComfyUI-Director.git
 使用 RayLight。也可手动安装后重启：
 
 ```bash
-/path/to/ComfyUI/.venv/bin/python -m pip install -r ComfyUI-Director/requirements-raylight.txt
+/path/to/ComfyUI/.venv/bin/python -m pip install -r DirectorDeck/requirements-raylight.txt
 ```
 
 ## 媒体工具（ffmpeg）
