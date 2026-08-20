@@ -1,0 +1,1317 @@
+{
+  "artifact": {
+    "algorithm": "sha256",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "size": 35149
+      },
+      {
+        "path": "README.md",
+        "sha256": "73dc2170a2365bb3520f9d1fe0e5de0e2809dfc29ce10e193ff235f3ebb2231a",
+        "size": 2220
+      },
+      {
+        "path": "SECURITY.md",
+        "sha256": "76dc6972bc7c1d5e7dd7174c1cfc60659a19f3e5e6b447c080a6dfee6c75667e",
+        "size": 972
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "sha256": "0d5eaf813633ca16ddf52801d511b18a6bfba74d70b0b06c0139d5e4bab8d07a",
+        "size": 1158
+      },
+      {
+        "path": "__init__.py",
+        "sha256": "f04cb48eb5641a08b91a89ff1986743e11def502faf5b9852869edeffef65046",
+        "size": 19807
+      },
+      {
+        "path": "backend/directordeck/__init__.py",
+        "sha256": "6916e7f629c81bcb85778bf0d76954637e3e5b01487107a283aa59324b9fb824",
+        "size": 507
+      },
+      {
+        "path": "backend/directordeck/app.py",
+        "sha256": "5cc25d10e5d9406d52c9942d7504c97784046c50e6d3b7ce07eca0ba9a48b21c",
+        "size": 316459
+      },
+      {
+        "path": "backend/directordeck/comfy.py",
+        "sha256": "d7225a01a588db705212beb594b9327b13041f6d06770638e2a4c344a91b2a67",
+        "size": 27794
+      },
+      {
+        "path": "backend/directordeck/compiler.py",
+        "sha256": "1272daecc977412b40771e7118c9db7c739bf94b4e3df6b5f6059dc5b78b8b06",
+        "size": 41499
+      },
+      {
+        "path": "backend/directordeck/database.py",
+        "sha256": "5db1bb27d72d72e691e36024ddbc7f7d30f2fc207a8cf3d5922e4bf9b1b0c5bc",
+        "size": 162536
+      },
+      {
+        "path": "backend/directordeck/h3_capabilities.py",
+        "sha256": "62258f935644ad6f56fb4472779f31077bdc1cae0426a79966ba1984bff1bf27",
+        "size": 1037
+      },
+      {
+        "path": "backend/directordeck/instance_lock.py",
+        "sha256": "84ba8e5039ff8999645969f3bdc334752f78ba397a39a5b3024356da5fc364f0",
+        "size": 6663
+      },
+      {
+        "path": "backend/directordeck/media.py",
+        "sha256": "602bb0dc6d9c2d0399577e9f85c40900197cd1d743e632b3b1a50596a0f9db5e",
+        "size": 23239
+      },
+      {
+        "path": "backend/directordeck/media_setup.py",
+        "sha256": "903df14e0573a99bfd303c4a328655620ffd1d836d52c4eaa3e2c42dde2c09b8",
+        "size": 2736
+      },
+      {
+        "path": "backend/directordeck/native_templates.py",
+        "sha256": "d939fc81e0cc7dd17a98d9ced0e3de703736a7e990376a195b9060b9691364d5",
+        "size": 75734
+      },
+      {
+        "path": "backend/directordeck/progress.py",
+        "sha256": "34043bf6d38728fdce3031c661d5c83468ae6b827d422d98eba24c63cd0297e3",
+        "size": 30045
+      },
+      {
+        "path": "backend/directordeck/public_url.py",
+        "sha256": "b1d8eff914e61a1f065f792e9619228784ff071d2f9fdd9790fe11b4cac6950d",
+        "size": 678
+      },
+      {
+        "path": "backend/directordeck/raylight_setup.py",
+        "sha256": "ec09de15586513b89618ee37801e6d05608f47d362be7499aa31b3ef5813b391",
+        "size": 8749
+      },
+      {
+        "path": "backend/directordeck/schemas.py",
+        "sha256": "dbe203b049fca15ef13fe2f9246ea54aa8eac9da651a2359cb03effe53274420",
+        "size": 64877
+      },
+      {
+        "path": "backend/directordeck/storage.py",
+        "sha256": "948b71539bcd06439588a7bfdc473c4cdbb51fd73f7feb5940f05433c13b20aa",
+        "size": 799
+      },
+      {
+        "path": "backend/directordeck/task_management.py",
+        "sha256": "1bf72db285d5ef2c970a870a9081788e0152a7f44e1aaeef499fc40da8174800",
+        "size": 9620
+      },
+      {
+        "path": "dist/assets/index-7BmqPUU7.css",
+        "sha256": "e2baebda2316512d19f95fc752fa886d35fe7100f22d4d65eb2e33368260cec1",
+        "size": 155753
+      },
+      {
+        "path": "dist/assets/index-B56oGb8m.js",
+        "sha256": "20e5c2f451b1d1255a10ed56aea8a8d35366d20bcac8ef4e62aab9c8926af2be",
+        "size": 605799
+      },
+      {
+        "path": "dist/index.html",
+        "sha256": "9d372cef7f0a4695deadaed91448687111ff5499c0470f7a8bb48916c0de53ac",
+        "size": 595
+      },
+      {
+        "path": "nodes/ComfyUI-MiniMax-H3-Turbo/.director-release.json",
+        "sha256": "f22140e2500139c096cd9daf10cff1c1248f19e2040f154a0273e560821e1e5c",
+        "size": 175
+      },
+      {
+        "path": "nodes/ComfyUI-MiniMax-H3-Turbo/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size": 11358
+      },
+      {
+        "path": "nodes/ComfyUI-MiniMax-H3-Turbo/README.md",
+        "sha256": "1676b6cd2804c43ce6c7c822d0a5c6a33bea1ce728449fa0d44ebf0f07583e3d",
+        "size": 6044
+      },
+      {
+        "path": "nodes/ComfyUI-MiniMax-H3-Turbo/__init__.py",
+        "sha256": "65ae7f4b821b51d952abf43931870d2c330160bee3e4ecfcf080935d7ea27863",
+        "size": 24895
+      },
+      {
+        "path": "nodes/ComfyUI-MiniMax-H3-Turbo/example_workflows/minimax_h3_t2v_turbo.json",
+        "sha256": "7371dfc10b6794607db817c5df17e6614f7c27e35ebd7f3231d71bc445eafd08",
+        "size": 22311
+      },
+      {
+        "path": "nodes/ComfyUI-MiniMax-H3-Turbo/h3_silu_temb_grid.safetensors",
+        "sha256": "30eb3c2cc7fb6b470d9717ff840d359313ac27cd64b705e32da1baa10f72d6a8",
+        "size": 5510600
+      },
+      {
+        "path": "nodes/ComfyUI-MiniMax-H3-Turbo/pyproject.toml",
+        "sha256": "b4f49884a0cbb068ae0720612599486515d2b6f257c462d9621addada893ef7c",
+        "size": 413
+      },
+      {
+        "path": "nodes/raylight/.director-release.json",
+        "sha256": "b4f797c7f4510ae68b4078c53d6c4babadd3970d528835214a2c90c7bcc30854",
+        "size": 158
+      },
+      {
+        "path": "nodes/raylight/DIRECTOR_MODIFICATIONS.md",
+        "sha256": "29c7c343adc4bd6beb08b1a9a2d30b26aa061f61916202b4ffe4d64b0da0a490",
+        "size": 1315
+      },
+      {
+        "path": "nodes/raylight/LICENSE",
+        "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+        "size": 11356
+      },
+      {
+        "path": "nodes/raylight/MANIFEST.in",
+        "sha256": "405f712ac1851791aefe26692c50b8bc8a80ab04c1e6e1d005cf6aca56ec1986",
+        "size": 170
+      },
+      {
+        "path": "nodes/raylight/README.md",
+        "sha256": "ad1c51a52a1702346818fe5bad43fd8203284db8f94625b79ea78884ebcb3853",
+        "size": 18926
+      },
+      {
+        "path": "nodes/raylight/__init__.py",
+        "sha256": "fd91f745ecf0975d10b97ac35589a40dad4c1801fb01ad1fd5b64730f8df7fb0",
+        "size": 5032
+      },
+      {
+        "path": "nodes/raylight/docs/1-intro.md",
+        "sha256": "c3159f394737f9d4d1360228b8f13caf7cb3f2e9f2ecbced9fbcb71f4dda867a",
+        "size": 4571
+      },
+      {
+        "path": "nodes/raylight/docs/2-fsdp.md",
+        "sha256": "e10a093e478178d2b901cd18c69fb62a970dfe358df0ea376c8554e69f6d3cc0",
+        "size": 6876
+      },
+      {
+        "path": "nodes/raylight/docs/3-usp.md",
+        "sha256": "f2d3c63c0f4cc12f21e48911df1d2b471f93568d11ebf98c2470efefb8bc876d",
+        "size": 8540
+      },
+      {
+        "path": "nodes/raylight/docs/4-cfg.md",
+        "sha256": "8f3f3b977a6ff05c98a42f2ba9148682aca660efd04aecadbca95b9f3948d7b4",
+        "size": 6566
+      },
+      {
+        "path": "nodes/raylight/docs/5-expansion.md",
+        "sha256": "ce4add8d1482786ba60a300b2d8d4df1cacdd95e60582a50d705d3d4a330d03f",
+        "size": 10310
+      },
+      {
+        "path": "nodes/raylight/docs/images/DP.PNG",
+        "sha256": "3524384b31e5489bfff8e53887225a28f06689249c4e22b94c67eb58e38c4bb2",
+        "size": 115001
+      },
+      {
+        "path": "nodes/raylight/docs/images/DP_DPCOND_FSDP.PNG",
+        "sha256": "85ebe357cf9d64e6985430891c270e47c051f0716f0a5c2c605e17924b238c22",
+        "size": 156582
+      },
+      {
+        "path": "nodes/raylight/docs/images/UNIFIED.PNG",
+        "sha256": "8d05a6fe49f5cd6e12ae891420cde212d117e011af30fd6b2be74d740aded5a4",
+        "size": 121637
+      },
+      {
+        "path": "nodes/raylight/docs/images/UNIFIED_DP_COND.PNG",
+        "sha256": "23aa77d39f0cf44e6985ac2283237df011b688ecd9da5bda3e1782691ff4650e",
+        "size": 150160
+      },
+      {
+        "path": "nodes/raylight/docs/images/USP.PNG",
+        "sha256": "f5cf82521d57f87519bacd843d38595ba7cd9cd24022f6ab9e979cad4e5e1d51",
+        "size": 91491
+      },
+      {
+        "path": "nodes/raylight/docs/images/USP_FSDP.PNG",
+        "sha256": "2cda7679d78ae38ede0dd4ea89303f906e14433c090af5c0f4edca363ebbe872",
+        "size": 83177
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Chroma_Radiance_Raylight.jpg",
+        "sha256": "6f71eed45813fc69521ec4ce059e2ab776153d02c089c04ae09f8dcebc18713f",
+        "size": 143087
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Chroma_Radiance_Raylight.json",
+        "sha256": "eace1ea626f39ca6c9c2cc3265f51933d3f0abed4f43cf1e3dbf6971f93f3c07",
+        "size": 23990
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Chroma_Raylight.jpg",
+        "sha256": "0cc398547ecf2585e55724803177a93184de8bf68cfe823bbb3d860d87867e71",
+        "size": 169428
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Chroma_Raylight.json",
+        "sha256": "1f7fa06630ff0c211f78beed48a28196321739aaf701444c55aa9a6a46008195",
+        "size": 21999
+      },
+      {
+        "path": "nodes/raylight/example_workflows/FluxDev_Data_Parallel_Raylight.jpg",
+        "sha256": "3c4650eff84e06ecfc875262fd1defe5b070947f4576c1a618caab00f49db0fa",
+        "size": 66505
+      },
+      {
+        "path": "nodes/raylight/example_workflows/FluxDev_Data_Parallel_Raylight.json",
+        "sha256": "db9c8cb0f07a755dea81dd5954d2aa60dd550bdb3de144b815e0584816a5e2f4",
+        "size": 17807
+      },
+      {
+        "path": "nodes/raylight/example_workflows/FluxDev_Raylight.jpg",
+        "sha256": "26572d449c9e515a6d981e97cc7542b5af5938f68058a0f47ee2bbedffbe8040",
+        "size": 228379
+      },
+      {
+        "path": "nodes/raylight/example_workflows/FluxDev_Raylight.json",
+        "sha256": "23cad3aac9ea540bd14b117c8f41087f5ff1bf558151db4c53522fc162674b71",
+        "size": 16001
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Flux_2_Edit_Raylight.jpg",
+        "sha256": "cd78c14f3e6068df5f990ce0e02475bdd7e08f4141882cf7ed995f9b53be5c09",
+        "size": 232460
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Flux_2_Edit_Raylight.json",
+        "sha256": "616fa3eb42397fe27638b990ebf94d916e91db78dbe010fb68f4be1b93ea0fa6",
+        "size": 27132
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Flux_2_GGUF_Raylight.jpg",
+        "sha256": "53b6acac3605e9d23e908016f5acfbdf636cf23668f5f9f25a4db6e8944720be",
+        "size": 134327
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Flux_2_GGUF_Raylight.json",
+        "sha256": "9dea11bd12ae7f0ba43cebda1d529673954096ef47f47578f788f3a3b6c3cbd2",
+        "size": 20547
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Hunyuan_1_5_I2V_Raylight.jpg",
+        "sha256": "855d3e0c349c4acd36e497b1f32365f21f6d1daa10fb3d2c14971efc6cb32c98",
+        "size": 406917
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Hunyuan_1_5_I2V_Raylight.json",
+        "sha256": "d19a392563257be5de659a6ee9342ef6e97427381b5c04c4bcf39b130fc0a046",
+        "size": 25232
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Hunyuan_Video_Raylight.jpg",
+        "sha256": "2d9c32fe39067b1ddb3c9d739907fd690aa68163c3c2802615739ed7439fdbd5",
+        "size": 208288
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Kandinsky_I2V_Raylight.jpg",
+        "sha256": "625a7af9435beb9bc6dba132062289106a7faba7f0467a8290a8a26d776fdd15",
+        "size": 161299
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Kandinsky_I2V_Raylight.json",
+        "sha256": "a4e511002ee4d0d2c9aa1c50c21c7b00477643986bcf32de176097ad3ec79635",
+        "size": 22865
+      },
+      {
+        "path": "nodes/raylight/example_workflows/LTX2_3_i2v_Raylight.jpg",
+        "sha256": "47893e963b4b3cdcc646c489e4b9ddf1590ba2fcc2c56fb046b01abf4c1e44b2",
+        "size": 344891
+      },
+      {
+        "path": "nodes/raylight/example_workflows/LTX2_3_i2v_Raylight.json",
+        "sha256": "23e4e59882030266f8f6bc1755e6b58e958b87eb33dd9588667d6700e0190cc3",
+        "size": 73704
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Minimax_H3_I2V_Raylight.jpg",
+        "sha256": "8f95857f1f557e831d22e15e37f50827f67347d0a1019718b7ba2a67df86b2ad",
+        "size": 110862
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Minimax_H3_I2V_Raylight.json",
+        "sha256": "5afbd4aed78aab4a6bc5dc0716947118cb2d1b07d148bc4498441a7a68727086",
+        "size": 25905
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Minimax_H3_REF2VA_Raylight.jpg",
+        "sha256": "20eaff75fc15d36e1801bc2e32c52a7263f4bb5b8747c0d449e7294d34eb2dc9",
+        "size": 453513
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Minimax_H3_REF2VA_Raylight.json",
+        "sha256": "1c4841bceef4172f5c833ef2878cf91ba3b49beefa07e7dccefb7d581867d2ca",
+        "size": 29223
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Qwen_2512_Fun_ControlNet.jpg",
+        "sha256": "27d28e965d9514a513a072247e157e861d925203b29ca74eff44107dbe2c2bc3",
+        "size": 250589
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Qwen_2512_Fun_ControlNet.json",
+        "sha256": "630d71b5cec34e22d1653c3ad2cf5dc2c6a97784bd7a3a1b69b5d0a011405fe6",
+        "size": 15511
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Qwen_Edit_Raylight.jpg",
+        "sha256": "f3d645e24a60be53a8b8e91ee72f214b89cc5a964ebd5a8c4e0b4bda38a269ba",
+        "size": 152171
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Qwen_Edit_Raylight.json",
+        "sha256": "2937609dbe41f3b0388cf3eb2b2e614db1a7fe00187c9000885ae5dc587e3664",
+        "size": 22141
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Qwen_Raylight.jpg",
+        "sha256": "5469a5a5a49a965e7b393622846bbbca2dd56a584feeb709701b5eb55ee92b0f",
+        "size": 233013
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Qwen_Raylight.json",
+        "sha256": "70e74b28f805e615057a5c1a1f9ee9cf85c30a932db65f9529d56e379e6381e8",
+        "size": 19834
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Stable_Diffusion_Raylight.jpg",
+        "sha256": "b047ecadba13a7e51e863c0f50795d9a806b500684385f216b1f6d80007df6ca",
+        "size": 47169
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Stable_Diffusion_Raylight.json",
+        "sha256": "c49323c0a8a4c50d036b489f9275387dc8597f4eb2a96fe66bb3f6285404fd9a",
+        "size": 13215
+      },
+      {
+        "path": "nodes/raylight/example_workflows/WAN_22_Raylight.jpg",
+        "sha256": "2c8e05c4fe6425a1f484059eb7bd0aea4acaad6faa89b8cfac47dc2499887218",
+        "size": 135131
+      },
+      {
+        "path": "nodes/raylight/example_workflows/WAN_22_Raylight.json",
+        "sha256": "37760e6fda00a039772189897325784fcda74950d128a9fa8e186db39a8698d3",
+        "size": 23911
+      },
+      {
+        "path": "nodes/raylight/example_workflows/WAN_SVI_Raylight.jpg",
+        "sha256": "67d636847d229c09587a414ebb44265cfe509dc37ceed81fa21735aecff58d90",
+        "size": 161157
+      },
+      {
+        "path": "nodes/raylight/example_workflows/WAN_SVI_Raylight.json",
+        "sha256": "1cbad20fb8d66b9400bf60d7191ebfc73e3c9253e47e5cb980a82766879e96f5",
+        "size": 36091
+      },
+      {
+        "path": "nodes/raylight/example_workflows/WanT2V_Raylight.jpg",
+        "sha256": "c2b2ea8c25848537082078bac527d8e9cf215228788094c9203ff2cd6e686cdd",
+        "size": 150583
+      },
+      {
+        "path": "nodes/raylight/example_workflows/WanT2V_Raylight.json",
+        "sha256": "f12fbe7456954430fa9f197228cce118f72e40ce698e7d61956811d6893a8d04",
+        "size": 20198
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Z_Image_Turbo_Raylight.jpg",
+        "sha256": "c30af04e31c90e294be45f346294ef92a4e562cc5b10780b3fd8ddf28408130d",
+        "size": 62307
+      },
+      {
+        "path": "nodes/raylight/example_workflows/Z_Image_Turbo_Raylight.json",
+        "sha256": "2b4433a5989a28189d53c588af608873e03038768284fd0dc682d83ba4d0bdaf",
+        "size": 15367
+      },
+      {
+        "path": "nodes/raylight/icon.png",
+        "sha256": "799aa2c0f4478b668e1be8f5ea0b6557edc597e85252bf1cbe24671d84ac9467",
+        "size": 118126
+      },
+      {
+        "path": "nodes/raylight/pyproject.toml",
+        "sha256": "863f8123557794d8d209954b4fd10e95cd82af2ac29e9add7fe603840437acad",
+        "size": 1928
+      },
+      {
+        "path": "nodes/raylight/requirements.txt",
+        "sha256": "c016c044db24d67ef9646b641dcd3d613fee88f6bb05c71e815baac2140d682e",
+        "size": 62
+      },
+      {
+        "path": "nodes/raylight/src/raylight/__init__.py",
+        "sha256": "7fc178e04adf95ce7087efd779c6e27df46ccf4bf3c7ea5ea9fb46f43535b5aa",
+        "size": 76
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/__init__.py",
+        "sha256": "23e5733ac07184d3d327c4edfa604f100fbb8fdfe9c46172ce618034495bd0fc",
+        "size": 909
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/float.py",
+        "sha256": "79a6916b551768bc5ea13995333d9d590de1ec9f42af6862d9ca0f0cad828f84",
+        "size": 8521
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/fsdp_registry_unused.py",
+        "sha256": "94e854280912f50d5a67b72c8043c5dbb414a851e808439cb3e7c275b962b1ee",
+        "size": 4517
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/fsdp_utils.py",
+        "sha256": "ab44bcd473625295c6b12339403c09a8a6411e0cd7b7a62b836c831d976e53c0",
+        "size": 28584
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/kitchen_distributed.py",
+        "sha256": "f217b75e57b86c2df207292c6152b2de1a2aec0a69961fc0ac48db101b1249b4",
+        "size": 3212
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/kitchen_patches/__init__.py",
+        "sha256": "62643b262b2c556b707b5d2cab0ffccc0afdfad1b6f58ad8dda7cd79f593538a",
+        "size": 127
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/kitchen_patches/fp8.py",
+        "sha256": "aa62881d9c1a180dc91259e80f552d49304f17fb75c481198e32f39dbe19cf5b",
+        "size": 22995
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/kitchen_patches/fp8_eager.py",
+        "sha256": "26b7460c3cc068b1eec8010622057a420769a28d2ac853d9736feaeb053011ba",
+        "size": 21380
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/kitchen_patches/gguf.py",
+        "sha256": "498dcac77aa69a537e8fe152f27c43adca4de77979165a7c59d110ba975923a9",
+        "size": 23630
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/kitchen_patches/gguf_eager.py",
+        "sha256": "bfdba00bb8c3a3a05939909ee5c5d1b20c77dda9960d3c30a3c0247f03dd482d",
+        "size": 30283
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/kitchen_patches/int8.py",
+        "sha256": "fd10d2d8824f6ddfe5be54059660a9f1df29ca4a47ce3e220f4b653623d3774a",
+        "size": 17613
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/kitchen_patches/nvfp4.py",
+        "sha256": "ed22337a2d8cb1750e58be46041f4a69e496d9ee8367288e6df8500679f7fc47",
+        "size": 27851
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/kitchen_patches/nvfp4_eager.py",
+        "sha256": "ced5b7433a73a79f069bca37dad5cf6c60d9db18ca1bfc188f4e9bdb2fc50353",
+        "size": 34350
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/lora.py",
+        "sha256": "19338903436bdf42c6b09dd43696be4ca102fce18dbf68070d91930b59be213f",
+        "size": 6299
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/model_management.py",
+        "sha256": "e535419bf57d8ebc8d5183d9dd1de80d612efb3a989c2db2e7ea9175ecbd8557",
+        "size": 1023
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/model_patcher.py",
+        "sha256": "2405737f05a039e0ac88070128a77fd7901fbf2c562123585a5e18a561465e5b",
+        "size": 25503
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/quant_ops.py",
+        "sha256": "d23e59ed50213951f9edcf9bcb3df250915b8b36a5b8a90736d51e821ab2bd73",
+        "size": 3630
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/sd.py",
+        "sha256": "985f0eaece59b9900bd8f72ac93df6ac38b69bde4de6420b118ce3448c3d4dd1",
+        "size": 45129
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/supported_models_base.py",
+        "sha256": "0616b170b1be687d6de2fab446e1a0b97bb602f45a2157ec261ea6a59c290000",
+        "size": 3766
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/utils.py",
+        "sha256": "a44be4bde4a8319124b94e6417a7e896aa5938e387eeab777efaf36a50ec243c",
+        "size": 7956
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/weight_adapter/__init__.py",
+        "sha256": "9b710027594b6a09a95c6dc397058733dd8ce4108723e24ba066befa2d6978aa",
+        "size": 628
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/weight_adapter/base.py",
+        "sha256": "066ffb786584eb44ea7e9a4efa4b3d40f7717664fbed64e22fec1b1bccd54bff",
+        "size": 4376
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/weight_adapter/loha.py",
+        "sha256": "98469fd1f3bdf5ec4de722ca355218b414b5fd997e47cec411350e6766a0f8a6",
+        "size": 6216
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/weight_adapter/lokr.py",
+        "sha256": "b4d92ef008f615e99e95e2672dc83c4820b77b987ddbce4d95afa440d4635a36",
+        "size": 8029
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_dist/weight_adapter/lora.py",
+        "sha256": "961c0767123e0ef37f27d3da46d971dd5baca2954c5f9e16eaf60e377f5ec298",
+        "size": 11396
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_context_windows.py",
+        "sha256": "6e365b2357a48e38bd731cc617a11942c05276c7183c7523ee15a155d0883a16",
+        "size": 5147
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_context_windows_extra.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_custom_sampler.py",
+        "sha256": "40bd60918b0507e8ca167d62fb8c27c958f272e5139fd8af5c6e176c2fd7e423",
+        "size": 30530
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_easycache.py",
+        "sha256": "edb99f3e7f9ce772bc6016c5a61f68ee57009fc46b101243df291f5e89ec5ccf",
+        "size": 29610
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_guidance.py",
+        "sha256": "4d786dee76398d0fbcd865dd48003a819e4528dba78449e4de9bb97ad2b4638c",
+        "size": 23263
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_lt.py",
+        "sha256": "7e2b5ae9d9f1e49e624c397af8c3ed64833583798ec37b045cfb2f7e36d0e483",
+        "size": 5979
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_minimax_h3.py",
+        "sha256": "c56440f137374be45657e69b8487ec16d055038100b3c21c0cb89c9e9998c31c",
+        "size": 1348
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_model_advanced.py",
+        "sha256": "6b04a7826aa76b3f373e9f87d4feb29cf60abc7d36702fb2805ec617e890e628",
+        "size": 16979
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_torch_compile.py",
+        "sha256": "e44d58f9447108526cdb9a9920070b5cabcb4268a2c8c4070869fd6c99f0be6a",
+        "size": 1049
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_wrappers_extra.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/comfy_extra_dist/ray_patch_decorator.py",
+        "sha256": "ce8c338424fb9133a57bd85d3bedf271c1946f75fc6313a6c1f08bc8809475e4",
+        "size": 1279
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/anima/xdit_cfg_parallel.py",
+        "sha256": "64cf53cef74627a61ee2661110e3dde7e0b38b7fe688c5bd2deb17139c6d8159",
+        "size": 314
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/aura/fsdp_unused.py",
+        "sha256": "0da8ab3f08d32ed082d3c0660db907fa55574b817d489c72d019188d67d200fb",
+        "size": 93
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/aura/xdit_cfg_parallel.py",
+        "sha256": "39e73ecffdb715c15ee50fe8a44207830dc4474bb919bf103aa77f13c570a641",
+        "size": 275
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/aura/xdit_context_parallel.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/boogu/xdit_cfg_parallel.py",
+        "sha256": "11e3c62afe7cd88fcc4ceab6589b9e33a9d619f6d5c0241c00a471e16eee55de",
+        "size": 444
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/boogu/xdit_context_parallel.py",
+        "sha256": "04721c508473a09c9792dd6a97eadb0f18b10b0221fa53d57966d1afb3b59152",
+        "size": 10320
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/chroma/fsdp_unused.py",
+        "sha256": "cf520abefb76814254e91786965a51a6b2389dfc76763f048465b6a8ed47b3d5",
+        "size": 2437
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/chroma/xdit_cfg_parallel.py",
+        "sha256": "986e63ecba03d9bf5839456300d4fa071f52053acf757ddda727ca2a8b05750f",
+        "size": 287
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/chroma/xdit_context_parallel.py",
+        "sha256": "36a8691bf01343419897f741e65c93ddc374d6128a52b479f26346f9cec06436",
+        "size": 14550
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/chroma_radiance/fsdp_unused.py",
+        "sha256": "ceafb55000b4dc04ab2c31b0038ce0ea211cefeb631931bd2dec8babe7ec5a60",
+        "size": 2829
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/cosmos/fsdp_unused.py",
+        "sha256": "0da8ab3f08d32ed082d3c0660db907fa55574b817d489c72d019188d67d200fb",
+        "size": 93
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/cosmos/xdit_cfg_parallel.py",
+        "sha256": "d98d244f9f633446790da35615c5627b3725cff9842407d0e5e96b46ebd00019",
+        "size": 571
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/cosmos/xdit_context_parallel.py",
+        "sha256": "0ac2ebb9f4713637e6d704a4838dd65113fd1b5819fce8084bbfd587de76f8dd",
+        "size": 11423
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/ernie/xdit_cfg_parallel.py",
+        "sha256": "64cf53cef74627a61ee2661110e3dde7e0b38b7fe688c5bd2deb17139c6d8159",
+        "size": 314
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/ernie/xdit_context_parallel.py",
+        "sha256": "4cad4a3bef6ba62d3f1417056d7385644096479b5d68178ef0b4f01e5ab5a32b",
+        "size": 5152
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/flux/fsdp_unused.py",
+        "sha256": "a27df289edd9f71739f5b4bb4cc35c0dcc185526f9ccecb757b72c337e8b5c00",
+        "size": 2081
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/flux/xdit_cfg_parallel.py",
+        "sha256": "abce4e94f790a017b58e12a3951f4ccb9d78b2449a32d65e7f566b6e3c128f67",
+        "size": 307
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/flux/xdit_context_parallel.py",
+        "sha256": "5307daf573f2384ac7e9564b54da66e28a69d264be312e79f17904277835969f",
+        "size": 16597
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hidream/fsdp_unused.py",
+        "sha256": "0da8ab3f08d32ed082d3c0660db907fa55574b817d489c72d019188d67d200fb",
+        "size": 93
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hidream/xdit_cfg_parallel.py",
+        "sha256": "7e5b79c9f44a4d416fbe9591a7d256a691c9ae647d71c8e6c6199a950e9e1182",
+        "size": 319
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hidream/xdit_context_parallel.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hidream_o1/xdit_cfg_parallel.py",
+        "sha256": "b83d340f4caadf81347dfed1a4a5da4a20113c8190116b6d7fb687ea3d5c489d",
+        "size": 578
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hidream_o1/xdit_context_parallel.py",
+        "sha256": "43331347ec21480a70148f8127d9b1292f3cfbedb9c4aa260c47f5794a39d2df",
+        "size": 8202
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hunyuan3d/xdit_cfg_parallel.py",
+        "sha256": "19fd8d3843f0e950f0555730bfeb860e4a3f037b4b68df07485f04cc86dfd0ce",
+        "size": 294
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hunyuan3d/xdit_context_parallel.py",
+        "sha256": "a48aa223b4c11124bf9c4e997004991699df388186d7e3b0f458a0d761bbc029",
+        "size": 4993
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hunyuan3dv2_1/fsdp_unused.py",
+        "sha256": "0da8ab3f08d32ed082d3c0660db907fa55574b817d489c72d019188d67d200fb",
+        "size": 93
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hunyuan3dv2_1/xdit_context_parallel.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hunyuan_video/fsdp_unused.py",
+        "sha256": "725b716c5525009b4660439c5c4157484d911a6e743d149dc4a01f31e0caf62a",
+        "size": 2869
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hunyuan_video/xdit_cfg_parallel.py",
+        "sha256": "b655510a282ace00644545146536b6032b961ed0627ba3e9af5b0cea1bf79661",
+        "size": 502
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hunyuan_video/xdit_context_parallel.py",
+        "sha256": "b9e0d7ff8fe7d165bbb023b9a7e8a0bda90ea50090df3f7a8dabf4c7e2c437a6",
+        "size": 14522
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hydit/fsdp_unused.py",
+        "sha256": "0da8ab3f08d32ed082d3c0660db907fa55574b817d489c72d019188d67d200fb",
+        "size": 93
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hydit/xdit_cfg_parallel.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/hydit/xdit_context_parallel.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/joyimage/xdit_cfg_parallel.py",
+        "sha256": "5e264c3d41a7e95d03bbb27ac666c3f4e56028c328a2847368193ccabdc291de",
+        "size": 341
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/joyimage/xdit_context_parallel.py",
+        "sha256": "5a8dc196d5a1bcf9a621a9ef8b12040bd2226834bfb7207fef4bfd9fa86c95a9",
+        "size": 5006
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/kandinsky5/fsdp_unused.py",
+        "sha256": "0da8ab3f08d32ed082d3c0660db907fa55574b817d489c72d019188d67d200fb",
+        "size": 93
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/kandinsky5/xdit_cfg_parallel.py",
+        "sha256": "3d57275fa750946e122936a4a0f76f3af6b7b415035016200c9eb1d5da883187",
+        "size": 300
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/kandinsky5/xdit_context_parallel.py",
+        "sha256": "5454c523fa5856a40006d9e01150c4565610ddc3db3c5f985691da8087b69bde",
+        "size": 5321
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/krea2/xdit_cfg_parallel.py",
+        "sha256": "057d8d8c0870e2ec76dca582afbd9cd00e46a43168c05e9c1792a24fcfc624bb",
+        "size": 309
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/krea2/xdit_context_parallel.py",
+        "sha256": "91971958e5fb7979e450bb870142fd8e72f4536f13184eec208d3b3311f5f412",
+        "size": 6280
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/lens/xdit_cfg_parallel.py",
+        "sha256": "5fbcf8cf5f1187576bde49614537959ecd1bfb7b8be343347c03cb11eb2e32bd",
+        "size": 331
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/lens/xdit_context_parallel.py",
+        "sha256": "4db9c506d5ff7f8bbbc934732f4958c45744e1d839c749b8452c8b24414ae270",
+        "size": 7565
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/lightricks/fsdp_ltxav_unused.py",
+        "sha256": "d061f1aacbd2238c3ed73ee497e72927651ba596bcfac87eecfa9812a2921b0a",
+        "size": 1714
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/lightricks/xdit_cfg_parallel.py",
+        "sha256": "d55a3e610c1e2a9db1a9412347bfd3892f1e246b9b54475234e6da3f42be1ae2",
+        "size": 732
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/lightricks/xdit_context_parallel.py",
+        "sha256": "e949a847181b946ddaf265e3bc47738a9d1c136270ce5b26770a49e2d5cbb044",
+        "size": 8203
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/lingbot_video/xdit_cfg_parallel.py",
+        "sha256": "89eac3611a8da5ad19d7ba9a32eb2ceeea23720174911d8f24cb189f2c37df1f",
+        "size": 1670
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/lingbot_video/xdit_context_parallel.py",
+        "sha256": "9aeedc55f8bcb685b794720d2f5235899ee3b2cce3ad2b76e1b6e7cbbb63c6a9",
+        "size": 4937
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/lumina/fsdp_unused.py",
+        "sha256": "8bf9795234eb0af98237f7c5feca47dc17340b56f68f8c4a86c262a7ff20392a",
+        "size": 1385
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/lumina/xdit_cfg_parallel.py",
+        "sha256": "50255a3cf06107dc8b383102c29b7e6b2135585c7165741703a5bc79a2761857",
+        "size": 500
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/lumina/xdit_context_parallel.py",
+        "sha256": "32bdc5dd13ea48013e7d9e4155b89133c218b23b8f5a7d48a6c94c5123a0b091",
+        "size": 5431
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/minimax/lora.py",
+        "sha256": "c94085b58a8f5eaaa871f4ab9ea400f0bfeb880ea64795f83f4a2d476645aa84",
+        "size": 6354
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/minimax/xdit_cfg_parallel.py",
+        "sha256": "5e4fbdeccf66aa48a7c99f94e5c524117866368410c9762eabfb7cd5a8cc1999",
+        "size": 313
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/minimax/xdit_context_parallel.py",
+        "sha256": "c4015ac644cb8a85937706f3d61afc6756877f474f2cd0d5b132de88f900e732",
+        "size": 10481
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/modules/diffusionmodules/xdit_cfg_parallel.py",
+        "sha256": "eea7cac425aeda2828da558252c6abe653b6c7eba7bd8fee0f5e213937b2e718",
+        "size": 300
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/omnigen/fsdp_unused.py",
+        "sha256": "0da8ab3f08d32ed082d3c0660db907fa55574b817d489c72d019188d67d200fb",
+        "size": 93
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/omnigen/xdit_cfg_parallel.py",
+        "sha256": "6e88977dd2dc54fad817aac139b17f619d43c9dfd6a35a26e8d99eb968edfdd2",
+        "size": 406
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/omnigen/xdit_context_parallel.py",
+        "sha256": "4e8f26ede91306c2b29d588b9f68a64ed8a3783ae230c5f550da1a0354c55181",
+        "size": 6508
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/pixart/fsdp_unused.py",
+        "sha256": "0da8ab3f08d32ed082d3c0660db907fa55574b817d489c72d019188d67d200fb",
+        "size": 93
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/pixart/xdit_context_parallel.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/pixeldit/xdit_cfg_parallel.py",
+        "sha256": "b0a64b51b15490058a5cdb5c6e4046f04d746767f7beb27f75983fb05d45fea6",
+        "size": 362
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/pixeldit/xdit_context_parallel.py",
+        "sha256": "04c2d4fc9ed04153c9f48290e19a08a8d2feec23ed9ab39c3b197ebd73614e49",
+        "size": 9200
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/qwen_image/fsdp_unused.py",
+        "sha256": "ee70f773ab3db629035196642d4c9bd35f918221641aa0ee38adc89a93d38887",
+        "size": 1621
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/qwen_image/xdit_cfg_parallel.py",
+        "sha256": "2f5fb374d02f16bb62a2965d3b19d08722e17809a52c22156efd85a847e1df84",
+        "size": 330
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/qwen_image/xdit_context_parallel.py",
+        "sha256": "804bf55aec0596e9d5eb04c1a36fea1e83164ab0d6934538e45a93ac433e87ef",
+        "size": 11780
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/utils.py",
+        "sha256": "a8133375bd215951fd0080e62e21dd6a3f0639f40fa3b41f5ceedfd28c85e617",
+        "size": 809
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/wan/fsdp_unused.py",
+        "sha256": "d3e7cd23b69f61ea9fdb8f8604250e7c7defb756ccd4146d10bb7916f7259308",
+        "size": 1586
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/wan/pipefusion.py",
+        "sha256": "6ad6efcbfe37fa88049ac85be68c705486d871971850e0a2fead159dd304c820",
+        "size": 21568
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/wan/xdit_cfg_parallel.py",
+        "sha256": "ac4ca7ed6ff9185bbb70a7b7afb2b27f9d1fdcd4999c07753ca92811acbd3107",
+        "size": 642
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/wan/xdit_context_parallel.py",
+        "sha256": "995c2970b1c55cda389188bfd824798f7688db310d95c3652c38a93ab8104dd3",
+        "size": 39730
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/wan/xdit_context_parallel_animate.py",
+        "sha256": "1347d9361f94457bd635244e864c127784024fe45174da91775b10d3697f9953",
+        "size": 5011
+      },
+      {
+        "path": "nodes/raylight/src/raylight/diffusion_models/wan/xdit_context_parallel_animate2.py",
+        "sha256": "3afdb5d49334105a9560599e8d3c78b6127acc5dff81029dd87aeb9a56f492e5",
+        "size": 8778
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_modules/attention.py",
+        "sha256": "0504d4e850b3f6c4cb4d570e29a379de000a72bf6c64321b886e7a0d2aeb07fe",
+        "size": 11260
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_modules/attention_backends.py",
+        "sha256": "340c9da5722e7bfe1f3677591f095b1e7fe9243030767857be4531865b2da059",
+        "size": 1067
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_modules/cfg.py",
+        "sha256": "3bf49ecb1f90afb52b1e1cdf80c06ed4587606b049d386127669aceeda275e48",
+        "size": 9874
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_modules/cfg_utils.py",
+        "sha256": "d91d49cf6d5e43d7f750857b7ef224cb5f006693f613e851fddf33a0958edb8d",
+        "size": 5394
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_modules/pipefusion.py",
+        "sha256": "d6baec719e034c4dede8d1f76c441424da9609532a8850a2358712c0d6481a8d",
+        "size": 3708
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_modules/sageattention_hf_patch.py",
+        "sha256": "ea9955604096419894550638d4dc586890011f357052968341b4ccd89b669089",
+        "size": 3967
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_modules/usp.py",
+        "sha256": "d92e961928d49c7e8f77c64b80c8ca6cb3f7e3a3b3cb55b3ccbc11cf8c3ae582",
+        "size": 28572
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_modules/utils.py",
+        "sha256": "74421a09c84e1cf9413ebb8d915aa529185c02a490bb85a9ea7228f9c72473bb",
+        "size": 1559
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_worker/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_worker/parallel_group_manager.py",
+        "sha256": "c36a17da3c66761c1042928248465677e6bbbef1e178436fe42e8b9b65a709ca",
+        "size": 5835
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_worker/pipefusion_schema.py",
+        "sha256": "6b957ee6fd1f433fbdcec88caedfa726ddefaabc427a5596742e9f600f5539fc",
+        "size": 4246
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_worker/pipefusion_state.py",
+        "sha256": "f5a0026effd216ad16c0cb71fd3ae27727bdd2da615682c23db249b0a6110d2d",
+        "size": 2714
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_worker/ray_worker.py",
+        "sha256": "e052bcfe51fc0ec6352eb2a31ec640da220a9088fdf1a1298150609b83938c3c",
+        "size": 61353
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_worker/ray_worker_controlnet.py",
+        "sha256": "9efcdb7eb4e0069082bcf06ed7735e492cf4cdc323ca49717bb730edace22fc3",
+        "size": 7489
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_worker/ray_worker_vae.py",
+        "sha256": "e278bb11819428a7575266440502a4b0c4e2c74be87419e06557111b4a862aba",
+        "size": 28613
+      },
+      {
+        "path": "nodes/raylight/src/raylight/distributed_worker/utils.py",
+        "sha256": "6274af9baf71c33da0926e5ea24c3016a25d4cf2f3af8091da6ee975478ebb85",
+        "size": 5197
+      },
+      {
+        "path": "nodes/raylight/src/raylight/driver_memory.py",
+        "sha256": "3b3e6e17f034aedc236d2c9ca389e6476cb8be9e4b9a1680e577a5a9367895e2",
+        "size": 2847
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/__init__.py",
+        "sha256": "ade03b84c1971185877163c6bbe1af110d275b8701ba10755cbb0dd1a63c2fc3",
+        "size": 68
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_gguf/.gitignore",
+        "sha256": "7094032e0194e23b5b2755e295303417c4299072b700e244aee0bd4fcd43347f",
+        "size": 3184
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_gguf/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size": 11357
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_gguf/README.md",
+        "sha256": "a76164eac2b76517665f63a66c395de623531f98bd00993ce75d3c6071982d40",
+        "size": 3441
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_gguf/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_gguf/dequant.py",
+        "sha256": "f703f919bd13e630e94e228b14ce06f4a7874bb7f8f74f1154af60394cb2d0c6",
+        "size": 12062
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_gguf/loader.py",
+        "sha256": "0ccf673daee49cdd420158f31e148dde22288325166d945a4c4a5dd764d94bfc",
+        "size": 16919
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_gguf/nodes.py",
+        "sha256": "1ab6b53871cf7d81592e962515beb4fa2b25b369e8fc2b4680e8b52ae43c8673",
+        "size": 10783
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_gguf/ops.py",
+        "sha256": "cc45116979e168e1d43ad752da75a63d2bc1f99d88cce82bc18d0aca3c656124",
+        "size": 12535
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_gguf/tools/__init__.py",
+        "sha256": "e4e5f8ddb3585fe4fe472ad9c3d4929aade1fff40a8057c593145252616274d3",
+        "size": 61
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_gguf/tools/convert.py",
+        "sha256": "ce22bcf41a39d7961fc4724bda993a609e31c13c72250a043c8c6d5821e5ceb6",
+        "size": 5435
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_lazytensors/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_lazytensors/lazy_tensor.py",
+        "sha256": "4cc203f5d30d04af864cd9ac75d8675fc6560cc0d18da2f3e63fef7c3358f1e5",
+        "size": 4013
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_lazytensors/ops.py",
+        "sha256": "48b939a891e462af830233be99684db6ac5a45efc203936421b50b3a01c72f09",
+        "size": 7991
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_ltxv/__init__.py",
+        "sha256": "9ce9186a1e58ab3d649ddeb88fb9c9489a36c36594d00ba04d58e4d92f7fa14a",
+        "size": 143
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_ltxv/guiders.py",
+        "sha256": "f2d603596c947a7114b866e5d60ce37946f92fecd5a2876a11b0f98e9e015089",
+        "size": 25744
+      },
+      {
+        "path": "nodes/raylight/src/raylight/expansion/comfyui_ltxv/nodes.py",
+        "sha256": "f7e17378ea5639e0e8bb25536b922c2053f851717eac1cdce403ffc12cbd3e9e",
+        "size": 24928
+      },
+      {
+        "path": "nodes/raylight/src/raylight/gpu_visibility.py",
+        "sha256": "703096eac39d97b0382d10b3ca0c29f749d920d7c3ba151ed0e10fe833c60d12",
+        "size": 2849
+      },
+      {
+        "path": "nodes/raylight/src/raylight/nodes.py",
+        "sha256": "bdbdf433323382f514b3d15d7318073db24d6436e40099432f8602b69ee009cb",
+        "size": 75821
+      },
+      {
+        "path": "nodes/raylight/src/raylight/nodes_debug.py",
+        "sha256": "57e367fcf8a4ca18d6eda55f11bd50d80ecea00c19c8a252eb87efbc6b5d05ca",
+        "size": 7096
+      },
+      {
+        "path": "nodes/raylight/src/raylight/xfuser_compat.py",
+        "sha256": "097c6bad2d077019f8766502f7b72c8d3a0794cfe7fe9628f6fc123af96d764a",
+        "size": 11521
+      },
+      {
+        "path": "nodes/raylight/tests/TEST.md",
+        "sha256": "c7f0e3be63df967ef4dc61b8f40c9ebfb7d645244937932454ffff5518edbe96",
+        "size": 1916
+      },
+      {
+        "path": "nodes/raylight/tests/__init__.py",
+        "sha256": "bca38ef262510489589bc18a91bd363f28fc8221e624875063b9c2175c662fc6",
+        "size": 38
+      },
+      {
+        "path": "nodes/raylight/tests/conftest.py",
+        "sha256": "2be96b4750682e3cbf64baf833ecd0931e2c17ea0180856ac0ba50e3abae352a",
+        "size": 199
+      },
+      {
+        "path": "nodes/raylight/tests/fsdp_nvfp4_cpu.py",
+        "sha256": "2bfc006bc5b54721763d1b70c53c9bf4a193bc1d326af7ef48bf4ed68efb8529",
+        "size": 6989
+      },
+      {
+        "path": "nodes/raylight/tests/fsdp_quant_compare.py",
+        "sha256": "61b40bef954ce57fe96c10e3b717cf07bc54000739d07a1fd5c57448795af755",
+        "size": 15932
+      },
+      {
+        "path": "nodes/raylight/tests/fsdp_quant_cpu_compare.py",
+        "sha256": "61b40bef954ce57fe96c10e3b717cf07bc54000739d07a1fd5c57448795af755",
+        "size": 15932
+      },
+      {
+        "path": "nodes/raylight/tests/pytest.ini",
+        "sha256": "f7b462bc88c6fd6afe1d1f778781269431a26a839437219439c755aaa75cdd0f",
+        "size": 191
+      },
+      {
+        "path": "nodes/raylight/tests/test_comfy_kitchen_attention.py",
+        "sha256": "dde4f459fe7cabef93d7507002f1768e88208b8e5f9fc051a10abee2745b1c99",
+        "size": 9753
+      },
+      {
+        "path": "nodes/raylight/tests/test_driver_memory.py",
+        "sha256": "2e73aaf88242c0d7e40cf806b6266daab8f33dd3474df1eb8befc2234bf913f4",
+        "size": 11234
+      },
+      {
+        "path": "nodes/raylight/tests/test_gpu_visibility.py",
+        "sha256": "3d4edf4c9fc43533e54e6ae0d77c52dfee0ebebbb799ae970c31e1ef09b68731",
+        "size": 3928
+      },
+      {
+        "path": "nodes/raylight/tests/test_krea2_parallel.py",
+        "sha256": "972b018460c6edc2506e390904ac06d84f724e6ee9630e67ba11cbb2e581c4ae",
+        "size": 7014
+      },
+      {
+        "path": "nodes/raylight/tests/test_minimax_lora.py",
+        "sha256": "3f261ec3f9e7f317da3c567ddb73c59c87041e4e6acb27e141744f34306bb8dd",
+        "size": 7282
+      },
+      {
+        "path": "nodes/raylight/tests/test_minimax_parallel.py",
+        "sha256": "49de5c562b8022c0ec8b224ed3cbd0509a79245bac2e8c2963b061500b857614",
+        "size": 5339
+      },
+      {
+        "path": "nodes/raylight/tests/test_seedvr2_vae.py",
+        "sha256": "4766937700e2b5593e59e8b456f734aef16f604b900880f0289b2c5d8d47123c",
+        "size": 40541
+      },
+      {
+        "path": "pyproject.toml",
+        "sha256": "956573ad13bea5dd6d0103ce5ead5d38149f34c3e55afaac42e4e4cd04db080a",
+        "size": 734
+      },
+      {
+        "path": "requirements-raylight.txt",
+        "sha256": "c016c044db24d67ef9646b641dcd3d613fee88f6bb05c71e815baac2140d682e",
+        "size": 62
+      },
+      {
+        "path": "requirements.txt",
+        "sha256": "1bbb7eb986c9b5344c42efcee7d9533c25c2e2ca1a92e8e0833d4886db22146f",
+        "size": 146
+      },
+      {
+        "path": "web/directordeck-menu.js",
+        "sha256": "37157744b287cbab4883165a939cb56c398d2b5527e6448ea0083408c1ae21ed",
+        "size": 5431
+      }
+    ],
+    "scope": "all generated package files except PROVENANCE.json",
+    "tree_sha256": "b09961280b9032b42bc09e287fd53f392338828620ba037c173daf2c2d348cd4"
+  },
+  "generated_by": "tools/build_plugin.py",
+  "lockfiles": [
+    {
+      "path": "frontend/package-lock.json",
+      "sha256": "887c2533c2ecd2028f5626e7fffd412473bcbd2e6ae3127833d055d1f023ae21",
+      "size": 84902
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "6fe923e82b6402c4bfe43b63d8aed1f607684ccd5ac28e6bee3ed870c3a924a0",
+      "size": 123526
+    }
+  ],
+  "package": {
+    "name": "director-deck",
+    "version": "0.2.6"
+  },
+  "schema_version": 1,
+  "source": {
+    "commit": "3e501a3d31d9e8641d6545919f67aae20dbe7e25",
+    "dirty": false
+  },
+  "toolchain": {
+    "node": "v25.2.1",
+    "npm": "11.6.2",
+    "python": "3.12.13",
+    "python_implementation": "CPython"
+  }
+}

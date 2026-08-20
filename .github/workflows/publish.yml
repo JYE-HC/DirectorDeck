@@ -3,17 +3,69 @@ name: Publish to ComfyUI Registry
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: directordeck-registry-publish
+  cancel-in-progress: false
+
 jobs:
   publish-node:
     name: Publish Custom Node to registry
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
     steps:
-      - name: Checkout
-        uses: actions/checkout@v7
-      - name: Publish
-        uses: Comfy-Org/publish-node-action@main
+      - name: Require the main release branch
+        shell: bash
+        run: test "$GITHUB_REF" = "refs/heads/main"
+      - name: Checkout package
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
-          # Registry publisher API key, from https://registry.comfy.org
-          # (create publisher "jye-hc", generate an API key, store it as the
-          # REGISTRY_ACCESS_TOKEN repository secret).
-          personal_access_token: ${{ secrets.REGISTRY_ACCESS_TOKEN }}
+          path: package
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: "3.12.13"
+      - name: Read source provenance
+        id: provenance
+        shell: bash
+        run: |
+          source_commit=$(python -c 'import json, re, sys; value=json.load(open("package/PROVENANCE.json", encoding="utf-8"))["source"]["commit"]; sys.exit("invalid source commit in PROVENANCE.json") if not isinstance(value, str) or re.fullmatch(r"[0-9a-f]{40}", value) is None else print(value)')
+          echo "source_commit=$source_commit" >> "$GITHUB_OUTPUT"
+      - name: Checkout public source provenance
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: JYE-HC/Director-WebUI
+          ref: ${{ steps.provenance.outputs.source_commit }}
+          path: source
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Recheck public source privacy
+        run: python source/tools/check_release.py
+      - name: Verify final repository against clean public source
+        run: >-
+          python source/tools/check_plugin_package.py
+          --package-dir package
+          --source-root source
+          --final-repository
+          --require-clean-source
+      - name: Install hash-locked Registry publisher
+        run: >-
+          python -m pip install
+          --disable-pip-version-check
+          --only-binary=:all:
+          --require-hashes
+          -r package/.github/comfy-cli-requirements.txt
+      - name: Verify publisher environment
+        run: |
+          python -m pip check
+          python -c 'import importlib.metadata; assert importlib.metadata.version("comfy-cli") == "1.10.3"'
+      - name: Publish
+        working-directory: package
+        env:
+          REGISTRY_ACCESS_TOKEN: ${{ secrets.REGISTRY_ACCESS_TOKEN }}
+        run: |
+          comfy --skip-prompt --no-enable-telemetry env
+          comfy node publish --token "$REGISTRY_ACCESS_TOKEN"
