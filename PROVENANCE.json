@@ -34,8 +34,8 @@
       },
       {
         "path": "backend/directordeck/app.py",
-        "sha256": "5cc25d10e5d9406d52c9942d7504c97784046c50e6d3b7ce07eca0ba9a48b21c",
-        "size": 316459
+        "sha256": "0c05b73691e80bbef66cd5e0acbc60bfc38d17c34a3663c3c2dc5ea9fe39b042",
+        "size": 316550
       },
       {
         "path": "backend/directordeck/comfy.py",
@@ -49,8 +49,8 @@
       },
       {
         "path": "backend/directordeck/database.py",
-        "sha256": "5db1bb27d72d72e691e36024ddbc7f7d30f2fc207a8cf3d5922e4bf9b1b0c5bc",
-        "size": 162536
+        "sha256": "abece71e0d5b904486d8a6a9c6a81693df0456447df6ba776d7de49ebce098b4",
+        "size": 164192
       },
       {
         "path": "backend/directordeck/h3_capabilities.py",
@@ -64,8 +64,8 @@
       },
       {
         "path": "backend/directordeck/media.py",
-        "sha256": "602bb0dc6d9c2d0399577e9f85c40900197cd1d743e632b3b1a50596a0f9db5e",
-        "size": 23239
+        "sha256": "46549a87fb65bf2fe48110da21ee77642d242d1483c1ddef5840e32f00bfde32",
+        "size": 24226
       },
       {
         "path": "backend/directordeck/media_setup.py",
@@ -94,7 +94,7 @@
       },
       {
         "path": "backend/directordeck/schemas.py",
-        "sha256": "dbe203b049fca15ef13fe2f9246ea54aa8eac9da651a2359cb03effe53274420",
+        "sha256": "60d55794501d884c4e64504202f6f54fc51eada810adbb4e0deec802ad158d2b",
         "size": 64877
       },
       {
@@ -108,18 +108,18 @@
         "size": 9620
       },
       {
-        "path": "dist/assets/index-7BmqPUU7.css",
-        "sha256": "e2baebda2316512d19f95fc752fa886d35fe7100f22d4d65eb2e33368260cec1",
-        "size": 155753
+        "path": "dist/assets/index-0YIGlmC3.css",
+        "sha256": "88227c194be3fcd4ade5d0a0ad5564ba0b452b7605dd9b68ab43f8d714019cbb",
+        "size": 156126
       },
       {
-        "path": "dist/assets/index-B56oGb8m.js",
-        "sha256": "20e5c2f451b1d1255a10ed56aea8a8d35366d20bcac8ef4e62aab9c8926af2be",
-        "size": 605799
+        "path": "dist/assets/index-rTchRruL.js",
+        "sha256": "e8a8ef266c34a79a127e7032cd82a40bf1591654735500b266cbe3d5d9e646f5",
+        "size": 606807
       },
       {
         "path": "dist/index.html",
-        "sha256": "9d372cef7f0a4695deadaed91448687111ff5499c0470f7a8bb48916c0de53ac",
+        "sha256": "c7281750710e34c332b9f11f94e304a77c942d46185610d7125d458a2eff17bd",
         "size": 595
       },
       {
@@ -604,8 +604,8 @@
       },
       {
         "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_easycache.py",
-        "sha256": "edb99f3e7f9ce772bc6016c5a61f68ee57009fc46b101243df291f5e89ec5ccf",
-        "size": 29610
+        "sha256": "85370886645d8a2656fc36e55b83384ec7b91693923dc50a69a132ea0da3a29e",
+        "size": 29640
       },
       {
         "path": "nodes/raylight/src/raylight/comfy_extra_dist/nodes_guidance.py",
@@ -1264,7 +1264,7 @@
       },
       {
         "path": "pyproject.toml",
-        "sha256": "956573ad13bea5dd6d0103ce5ead5d38149f34c3e55afaac42e4e4cd04db080a",
+        "sha256": "fde36ef67489861ce419e8390e1d2996441c12c0178eef8b5c7a6dfe9f228b09",
         "size": 734
       },
       {
@@ -1284,7 +1284,7 @@
       }
     ],
     "scope": "all generated package files except PROVENANCE.json",
-    "tree_sha256": "b09961280b9032b42bc09e287fd53f392338828620ba037c173daf2c2d348cd4"
+    "tree_sha256": "4f81d961d1c0ca482e4d75dbc136de82076a1e8b79b3d5a78a1ecb21afeb4f6b"
   },
   "generated_by": "tools/build_plugin.py",
   "lockfiles": [
@@ -1301,17 +1301,17 @@
   ],
   "package": {
     "name": "director-deck",
-    "version": "0.2.6"
+    "version": "0.2.7"
   },
   "schema_version": 1,
   "source": {
-    "commit": "3e501a3d31d9e8641d6545919f67aae20dbe7e25",
+    "commit": "6b959d6f73435afe2a83acef6c62fe9d812200fa",
     "dirty": false
   },
   "toolchain": {
     "node": "v25.2.1",
     "npm": "11.6.2",
-    "python": "3.12.13",
+    "python": "3.13.13",
     "python_implementation": "CPython"
   }
 }
