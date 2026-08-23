@@ -24,8 +24,8 @@
       },
       {
         "path": "__init__.py",
-        "sha256": "9250b95f292a4c849914d0ec632b95b8364ced5004afc1dcc08c077c7a817c9d",
-        "size": 59020
+        "sha256": "7cf63f33a3f69b5d1c27a6741c2d5e6495d01578342c52660b9d4d69805236d2",
+        "size": 59534
       },
       {
         "path": "backend/directordeck/__init__.py",
@@ -34,8 +34,8 @@
       },
       {
         "path": "backend/directordeck/app.py",
-        "sha256": "fc1496fb9c2afab265f3a9b4f3e06e916d7573d1e4c0c89203e468ce3d711a74",
-        "size": 449837
+        "sha256": "ff7e2f715f14b8bc6ac92d0969e28316f3c523ce9873badb936e4a7a74943cd3",
+        "size": 451045
       },
       {
         "path": "backend/directordeck/capabilities/__init__.py",
@@ -119,8 +119,8 @@
       },
       {
         "path": "backend/directordeck/media_setup.py",
-        "sha256": "d5174d17c067b5dce0ea183ac4f9d6ba8d23d2cb8bf02a2b199050794dc62f3f",
-        "size": 3432
+        "sha256": "18591d766a02431d2a4a2df875ae2a0201427c145471ee12c61a86147c45f6ad",
+        "size": 12334
       },
       {
         "path": "backend/directordeck/migration_api.py",
@@ -164,8 +164,8 @@
       },
       {
         "path": "backend/directordeck/raylight_setup.py",
-        "sha256": "ec09de15586513b89618ee37801e6d05608f47d362be7499aa31b3ef5813b391",
-        "size": 8749
+        "sha256": "6ba0f43e50eb61707e895b9f625f427fa5be64e9f4001b03abe6f750500e6020",
+        "size": 11179
       },
       {
         "path": "backend/directordeck/schemas.py",
@@ -353,18 +353,18 @@
         "size": 17259
       },
       {
-        "path": "dist/assets/index-CvFMhWnk.js",
-        "sha256": "27af9a9a4c40d90521644ae71f5b2e7235c5e16a1be480742ae12559745c374d",
-        "size": 707801
+        "path": "dist/assets/index-B9-ftxOt.css",
+        "sha256": "20a90efff17578c8c1108e98306f0fd2904311efed4c9f20dc1117f424a3cfae",
+        "size": 161954
       },
       {
-        "path": "dist/assets/index-DLLh-5fA.css",
-        "sha256": "23b22ab9a319467456cafd57e807602018968f6d9e1433b5faeac4cf604246bf",
-        "size": 160301
+        "path": "dist/assets/index-D2-d93el.js",
+        "sha256": "2fb5e6cb227bb66c19e460147d8008040270dbe7b089f72866fcafc12df490cf",
+        "size": 708398
       },
       {
         "path": "dist/index.html",
-        "sha256": "137e19bd3a203aa209480167c0a9f35012801b1da8b910b25469f216c527a551",
+        "sha256": "424841524dae7994f426c5b980b6e5948779a2a1e08e4f099282900b610fc2be",
         "size": 595
       },
       {
@@ -1194,7 +1194,7 @@
       },
       {
         "path": "pyproject.toml",
-        "sha256": "2b956dabd5be3c9d23b571f978edb7808a081a29ba0540aa17a38421a2a5cd69",
+        "sha256": "81e6a5703f65592a1b5d6202825e6ef4eb6ad88500f37670ebf57006d23915f6",
         "size": 734
       },
       {
@@ -1209,12 +1209,12 @@
       },
       {
         "path": "web/directordeck-menu.js",
-        "sha256": "37157744b287cbab4883165a939cb56c398d2b5527e6448ea0083408c1ae21ed",
-        "size": 5431
+        "sha256": "b2ba5032ddbda850b8aae45b4e64a52c77d5d5ba4d0abb2200e5b5796bc73cb4",
+        "size": 6385
       }
     ],
     "scope": "all generated package files except PROVENANCE.json",
-    "tree_sha256": "b9874f13b23d6920a20a60d08f1dae5435daf134c251785489d57cf24d79b9ab"
+    "tree_sha256": "9bad753460518da51deadc89312d6abbeb94541e5e1f3c2f7a46fb5fdd0ffcfc"
   },
   "generated_by": "tools/build_plugin.py",
   "lockfiles": [
@@ -1231,11 +1231,11 @@
   ],
   "package": {
     "name": "director-deck",
-    "version": "0.2.8"
+    "version": "0.2.9"
   },
   "schema_version": 1,
   "source": {
-    "commit": "d59224a303c435a01b19abcbec2b3613d28c8788",
+    "commit": "279764835ac7280f047ca5d4a05da99087b2012c",
     "dirty": false
   },
   "toolchain": {
