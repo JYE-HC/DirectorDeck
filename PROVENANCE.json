@@ -24,8 +24,8 @@
       },
       {
         "path": "__init__.py",
-        "sha256": "245c8228cb3ab301a3a8b8ada5b0d34693a36fd0737d6e0db90ea55f5f3a73ab",
-        "size": 57923
+        "sha256": "9250b95f292a4c849914d0ec632b95b8364ced5004afc1dcc08c077c7a817c9d",
+        "size": 59020
       },
       {
         "path": "backend/directordeck/__init__.py",
@@ -353,9 +353,9 @@
         "size": 17259
       },
       {
-        "path": "dist/assets/index-D5RYZroY.js",
-        "sha256": "5b2d779b1549b0d2f54fe31223b5609ca0d833cca1bcd7e4cef84081872c3a18",
-        "size": 706107
+        "path": "dist/assets/index-CvFMhWnk.js",
+        "sha256": "27af9a9a4c40d90521644ae71f5b2e7235c5e16a1be480742ae12559745c374d",
+        "size": 707801
       },
       {
         "path": "dist/assets/index-DLLh-5fA.css",
@@ -364,7 +364,7 @@
       },
       {
         "path": "dist/index.html",
-        "sha256": "f3c8053c4d35511a7afbd137cf8c542324594235b313b595624cfd461a4688d3",
+        "sha256": "137e19bd3a203aa209480167c0a9f35012801b1da8b910b25469f216c527a551",
         "size": 595
       },
       {
@@ -1214,7 +1214,7 @@
       }
     ],
     "scope": "all generated package files except PROVENANCE.json",
-    "tree_sha256": "71af4e5f82c61edeb1be16090051debf44f547827dd6dab7e5ce770d2d265d43"
+    "tree_sha256": "b9874f13b23d6920a20a60d08f1dae5435daf134c251785489d57cf24d79b9ab"
   },
   "generated_by": "tools/build_plugin.py",
   "lockfiles": [
@@ -1235,7 +1235,7 @@
   },
   "schema_version": 1,
   "source": {
-    "commit": "efac9877eb14ffdc3abcbafa381634417eb1796f",
+    "commit": "d59224a303c435a01b19abcbec2b3613d28c8788",
     "dirty": false
   },
   "toolchain": {
