@@ -34,8 +34,8 @@
       },
       {
         "path": "backend/directordeck/app.py",
-        "sha256": "ff7e2f715f14b8bc6ac92d0969e28316f3c523ce9873badb936e4a7a74943cd3",
-        "size": 451045
+        "sha256": "b5daa1a2bd33ebfb7160786c2d4b47953f21b4834adb33b8b8293ae7909652ec",
+        "size": 463364
       },
       {
         "path": "backend/directordeck/capabilities/__init__.py",
@@ -44,8 +44,18 @@
       },
       {
         "path": "backend/directordeck/capabilities/catalog.py",
-        "sha256": "2ecde0b97976070a1e83c636da520d076aecea7b4a712e38faa675c5aa07bcd0",
-        "size": 17028
+        "sha256": "65298a5e5221f787a04ab69aad59bfcf3d4ce85f7f6b47cbe0f4b7a42eb9df02",
+        "size": 17018
+      },
+      {
+        "path": "backend/directordeck/capabilities/comfy_kitchen_attention.py",
+        "sha256": "cedc9b935c9eb694fb646bda4044b02a4f745b484f0d936875afffe66ba9777c",
+        "size": 16918
+      },
+      {
+        "path": "backend/directordeck/capabilities/comfy_kitchen_attention_observer.py",
+        "sha256": "8b939217a29b7c20d7cd81dc3af48323d5faa0e34053c479a91fa676204a73a8",
+        "size": 5254
       },
       {
         "path": "backend/directordeck/capabilities/evaluator.py",
@@ -54,8 +64,8 @@
       },
       {
         "path": "backend/directordeck/capabilities/preflight.py",
-        "sha256": "4d871981dc745b8f5b454c9d759216961142aec69039baaadf40b19ca293b7b7",
-        "size": 18807
+        "sha256": "c7ebb3427794a51e6a576bcb0bd1488a29afc2aa7071a9e6a1dd64fdbd3ce9fe",
+        "size": 18797
       },
       {
         "path": "backend/directordeck/capabilities/snapshot.py",
@@ -64,8 +74,8 @@
       },
       {
         "path": "backend/directordeck/comfy.py",
-        "sha256": "77e7566bb45e8ddb4bd6815d9d6cfbe781de1b5f341aca27dff622abe28c6bd4",
-        "size": 28392
+        "sha256": "c2ae8f48cea7b4d425a47f4e721835ee36bdee0f0de13a71cf71e1c4cc38904d",
+        "size": 30150
       },
       {
         "path": "backend/directordeck/compiler.py",
@@ -79,13 +89,13 @@
       },
       {
         "path": "backend/directordeck/config_manager.py",
-        "sha256": "1020d658ac8f121f0018c5f45aa2df755b6cb979dd2174e4fb6c95abd8cc8b5a",
-        "size": 10107
+        "sha256": "844ec29a42ecc9af8d132d6b4811802b8020f7f63462ea549651155d83d0cf3c",
+        "size": 14225
       },
       {
         "path": "backend/directordeck/database.py",
-        "sha256": "e2135a01c33520d17c0f2adbcb00ba80d542ce675695c3976d4b1800cc8ab581",
-        "size": 335688
+        "sha256": "62d9ee31d55930e9e8c824a01498164ab1d7e2d1a76da885ce1aef9acda720c1",
+        "size": 343731
       },
       {
         "path": "backend/directordeck/execution/__init__.py",
@@ -94,8 +104,8 @@
       },
       {
         "path": "backend/directordeck/execution/submission.py",
-        "sha256": "1f3d17b9b62a50a65b2698bd8f138cc1302cd1fd9d66af0736a808df7578d354",
-        "size": 35630
+        "sha256": "8ee76fdbdea42bb99c5e214999f9e7bc5d9b33111105c62f434fc6ea8c844fb2",
+        "size": 35519
       },
       {
         "path": "backend/directordeck/h3_capabilities.py",
@@ -124,18 +134,23 @@
       },
       {
         "path": "backend/directordeck/migration_api.py",
-        "sha256": "3ab08cb08422fdb72223dbc645aeb0824534e694d1d533025251cd81e2e74d67",
-        "size": 18062
+        "sha256": "b0ecd34053ddc044b33154f7885219343ecaea1c39817ede79798ac9601ba962",
+        "size": 19157
       },
       {
         "path": "backend/directordeck/migrations/__init__.py",
-        "sha256": "5a1ef2c297f0eaff91d255168f07097d58409d5bb5f493970e9632fb75046d39",
-        "size": 1694
+        "sha256": "b4e0be88778f2fb2ccaa2b990e9ce6c295505dae2072f49663fcbdc069566ccb",
+        "size": 2092
       },
       {
         "path": "backend/directordeck/migrations/feature_bundle_v4_v5.py",
-        "sha256": "e0403e8642fcb5575d5f7010eac281a4a6cd2bfaa774d97d197f3addc1d44066",
-        "size": 5712
+        "sha256": "97a53ab5c6ff28184fefe7daa2fe931981ebbb3b03701fa37de3a8eff39e8656",
+        "size": 6567
+      },
+      {
+        "path": "backend/directordeck/migrations/feature_bundle_v5_v6.py",
+        "sha256": "c8d4fd344facf2eb94e3de9dc9c7c74c93ce3a402fab03573764733b82f41f47",
+        "size": 12380
       },
       {
         "path": "backend/directordeck/migrations/runtime_settings_v2_v3.py",
@@ -144,18 +159,18 @@
       },
       {
         "path": "backend/directordeck/migrations/timeline_v4_v5.py",
-        "sha256": "a8be299a36aec286e5921445fff53355e8360e36a3632fd03ec6c8d572527b6a",
-        "size": 30166
+        "sha256": "36f15731832cf023c660bd5ecdd11a89cbbd79446d6ad48f5b04292febae87c9",
+        "size": 29989
       },
       {
         "path": "backend/directordeck/native_templates.py",
-        "sha256": "a1662b8f27001a1beecef713083d861eb5adab81fddfef4be1dd70a8ca548bcf",
-        "size": 55655
+        "sha256": "1d1315f1365c55f675838b070813dc3ceb5cba389837d6be0d5b2ca812caf245",
+        "size": 56639
       },
       {
         "path": "backend/directordeck/progress.py",
-        "sha256": "f20fb45d9cd83524fb86f5087ce49f41e4004e909622badac9abd241af378eb6",
-        "size": 50441
+        "sha256": "765712cd29afdbd1c974d367d2da26ff77ebb494b7521792906b7d830fcc3776",
+        "size": 49918
       },
       {
         "path": "backend/directordeck/public_url.py",
@@ -169,8 +184,8 @@
       },
       {
         "path": "backend/directordeck/schemas.py",
-        "sha256": "c3c65558fa50fdef8cdc5ff5b354b826a1b1787f131e80cb0da71424739b194b",
-        "size": 93253
+        "sha256": "117ce09257aa9d2fda7808607f03e5029241a0dd3124d9bb50e925110bd12b66",
+        "size": 96415
       },
       {
         "path": "backend/directordeck/storage.py",
@@ -189,8 +204,8 @@
       },
       {
         "path": "backend/directordeck/workflow/audit.py",
-        "sha256": "76b40474e2494fe46af1e7b93bc59002c26688b976eded73c6eb5b4782046da1",
-        "size": 58255
+        "sha256": "775f90813ab9b7a22b8614f5e92317f6200fe7b03954fee541ec5e7df5b61e70",
+        "size": 59166
       },
       {
         "path": "backend/directordeck/workflow/builder.py",
@@ -204,13 +219,13 @@
       },
       {
         "path": "backend/directordeck/workflow/compile_report.py",
-        "sha256": "09db470672b3c0b991a9ce4fdffc1b7b237ef89f4e3e08049041ba92877d4360",
-        "size": 5286
+        "sha256": "cde1d01368b28ded9bb42aba2604a7a6ec67a70b1b4bbe5318e46493d932a862",
+        "size": 9118
       },
       {
         "path": "backend/directordeck/workflow/contracts.py",
-        "sha256": "ec539bf84aa9877a23b7ccbb0933c04a5e6f1963c4ba2317942fae9b75234c02",
-        "size": 55137
+        "sha256": "7a4cd8517a338b20c0ce067b9268621b15259ec2f1d7ea8dafc8bcb784cafa05",
+        "size": 57710
       },
       {
         "path": "backend/directordeck/workflow/effective_features.py",
@@ -219,13 +234,38 @@
       },
       {
         "path": "backend/directordeck/workflow/execution.py",
-        "sha256": "f75f7dc880bac2c4648c7ec3d4c856640da6ec36febb879e98ad93579933608e",
-        "size": 66002
+        "sha256": "edbb19b72974cb411c9030f8a5caf80454f8e9c092bb03bb61c4dce21ef03a63",
+        "size": 66896
+      },
+      {
+        "path": "backend/directordeck/workflow/execution_hints.py",
+        "sha256": "d328dba2a016d934ed8d97450de47adddf6e5f898fbe75a13174931e97fb358e",
+        "size": 5277
+      },
+      {
+        "path": "backend/directordeck/workflow/feature_compiler_support.py",
+        "sha256": "3ed8f3dd6ab4efc91618e42abae7463b4899b714c60ef0f6f87b1ea32d4d085f",
+        "size": 11165
+      },
+      {
+        "path": "backend/directordeck/workflow/feature_config.py",
+        "sha256": "dda16f72692e35a4c7afe6d1f557a243ea73dfecbc703f8248eb08d305c828f6",
+        "size": 13695
+      },
+      {
+        "path": "backend/directordeck/workflow/feature_config_models.py",
+        "sha256": "5fa259634fa634dbec9d29fe3bd591ac6fa8d83ccb9a081204c4406de401424d",
+        "size": 2781
+      },
+      {
+        "path": "backend/directordeck/workflow/feature_definitions.py",
+        "sha256": "319b5258c2948494bc3346b124e36902480dc5e653d86fb1ed1432d870ed92d3",
+        "size": 4391
       },
       {
         "path": "backend/directordeck/workflow/interpreters/__init__.py",
-        "sha256": "7c0171396dfe5f9998384df44b43cc83013d1a939f94d0e86f91a3dbabd6a3b3",
-        "size": 2860
+        "sha256": "79d73eab0a35d1d5404e850e6325c5d64771bab1acde46f280796ac8a11e32d5",
+        "size": 2912
       },
       {
         "path": "backend/directordeck/workflow/interpreters/_emitter.py",
@@ -244,8 +284,13 @@
       },
       {
         "path": "backend/directordeck/workflow/interpreters/builtin.py",
-        "sha256": "e1a9dedd71851f2aaa17a8c8c2dca0cceefc4ae90cf637b4e62506900bd3b81e",
-        "size": 37916
+        "sha256": "a58c96639df0a935a77c1ee748051f232f2afbf5228f62c903b6547de3db41df",
+        "size": 33620
+      },
+      {
+        "path": "backend/directordeck/workflow/interpreters/comfy_kitchen_attention.py",
+        "sha256": "ffd1ee53e37047e37f9f4d9a644f1897c2995d1f8d102de394495a770f0dfa41",
+        "size": 2360
       },
       {
         "path": "backend/directordeck/workflow/interpreters/conditioning.py",
@@ -261,6 +306,11 @@
         "path": "backend/directordeck/workflow/interpreters/decode_video.py",
         "sha256": "aa17a4f60dce16ec65d4f4649b0567b5f0747ad1b9cef9936260b987655b1c3b",
         "size": 892
+      },
+      {
+        "path": "backend/directordeck/workflow/interpreters/execution_strategy.py",
+        "sha256": "2c257e2703ffdcf551a911fe12e0e7aee37ef5f634fe32d1fa4aa1239ac0305f",
+        "size": 5896
       },
       {
         "path": "backend/directordeck/workflow/interpreters/lora.py",
@@ -289,13 +339,23 @@
       },
       {
         "path": "backend/directordeck/workflow/interpreters/shared_models.py",
-        "sha256": "8373edb28d824da81e775bcc43b2ef84af38e6d4d10fcf9a4d87d558b3025aab",
-        "size": 665
+        "sha256": "223961c74f1837333b1ab73f814c77724e6b9e5930077d2290f58328e22e94eb",
+        "size": 2105
       },
       {
         "path": "backend/directordeck/workflow/interpreters/standard_model_path.py",
         "sha256": "73c14634b173bdab22c9d8758fa2aa98e4001cbfadb20dae9a2e51432d49d944",
         "size": 1589
+      },
+      {
+        "path": "backend/directordeck/workflow/interpreters/v6_execution_hints.py",
+        "sha256": "d4b811e203f200b155d4f25bc7df8d3b6417fb8570745aba0c8149a96f61f7a3",
+        "size": 1262
+      },
+      {
+        "path": "backend/directordeck/workflow/interpreters/v6_native.py",
+        "sha256": "4944ea565bddcf8f9363fb56766f79bec917d0904f17b70622072a10e9bad911",
+        "size": 13065
       },
       {
         "path": "backend/directordeck/workflow/legacy.py",
@@ -304,13 +364,18 @@
       },
       {
         "path": "backend/directordeck/workflow/lora_factory.py",
-        "sha256": "24b76978144cd8f32650f4fbbd77020a93ae292c671dd7734d3fb3bb8c3e1dc6",
-        "size": 10651
+        "sha256": "f19eb2aad5664a00daa1a2e2da0f8770a0a4c06100bea3de41bbcef0bb89c3c1",
+        "size": 12017
       },
       {
         "path": "backend/directordeck/workflow/node_contracts.py",
-        "sha256": "b8b27c06660bc2373b6bb3d36e6a2609bda6e5463001df18fea96a83fb011c5e",
-        "size": 50617
+        "sha256": "f2945a7f84307b0c808375f4bf92d1f9dc94b5fdd2a383262890649422291f91",
+        "size": 55127
+      },
+      {
+        "path": "backend/directordeck/workflow/project_compiler.py",
+        "sha256": "12f263a7fb9b8913abc13d2536dfe279168a0467f737fc94ace1ea22ba5ac934",
+        "size": 1608
       },
       {
         "path": "backend/directordeck/workflow/registry.py",
@@ -319,23 +384,33 @@
       },
       {
         "path": "backend/directordeck/workflow/runtime_snapshot.py",
-        "sha256": "9e01d41eaa220f70da442382c949079cffcaaccb40342254ba28b2800613753a",
-        "size": 17384
+        "sha256": "f697ed83d9222302ee2d6c293fc92f0d8d440ba0f17768eb96d6d0c1f04d159a",
+        "size": 24074
+      },
+      {
+        "path": "backend/directordeck/workflow/segment_compiler.py",
+        "sha256": "125e25b098dd30cf0b8016240b18d97e42418c9a8189d370c30480d3552882f5",
+        "size": 15570
       },
       {
         "path": "backend/directordeck/workflow/templates.py",
-        "sha256": "ac759575dd814db6b8e096f83389de54c1924c52b5496b75bb2e7651f837583f",
-        "size": 26459
+        "sha256": "c0369d1127a876de44b4e1572604056790eae92e459e385f5afb1cfe3d4da249",
+        "size": 26504
+      },
+      {
+        "path": "backend/directordeck/workflow/templates_v6.py",
+        "sha256": "89968377c5d1cd27c72f30d974e3d6e4b90b588cb41d74147b30431c4ef47021",
+        "size": 10783
       },
       {
         "path": "backend/directordeck/workflow/v4_compiler.py",
-        "sha256": "bb3f3e02767d8627cc7936d9bec422bff8b81189f84148e97bf3444783486608",
-        "size": 48683
+        "sha256": "0f91a9e6e40f28c67973d0495c187087be6ac696f4af63aadf916dacb718513a",
+        "size": 39433
       },
       {
         "path": "backend/directordeck/workflow/v4_execution_adapter.py",
-        "sha256": "0a1ce7029c6a8bd6715eb07bfd3833b291aac10adcd12c1de681e0bb25b219d5",
-        "size": 31446
+        "sha256": "54ca1f5f58e905a63f8a73c9d85d9c593390fd6d1364817237bdb6494a652ca7",
+        "size": 31340
       },
       {
         "path": "backend/directordeck/workflow/v4_resolver.py",
@@ -349,22 +424,42 @@
       },
       {
         "path": "backend/directordeck/workflow/v5_registry.py",
-        "sha256": "1d1db14365abc2d10b2af5b683d1eba83eac3d89e3e285ff5dd0bbde28e52b42",
-        "size": 17259
+        "sha256": "a7d4adc9ba85f69f272396f6473afb206739831780492b2c607d3f5ffe6f0b7e",
+        "size": 17234
       },
       {
-        "path": "dist/assets/index-B9-ftxOt.css",
-        "sha256": "20a90efff17578c8c1108e98306f0fd2904311efed4c9f20dc1117f424a3cfae",
-        "size": 161954
+        "path": "backend/directordeck/workflow/v6_execution_adapter.py",
+        "sha256": "416ac3e28e45d87f53d5fa904cce5ae74739f968ba237dbabb0864479e62edad",
+        "size": 13903
       },
       {
-        "path": "dist/assets/index-D2-d93el.js",
-        "sha256": "2fb5e6cb227bb66c19e460147d8008040270dbe7b089f72866fcafc12df490cf",
-        "size": 708398
+        "path": "backend/directordeck/workflow/v6_implementations.py",
+        "sha256": "f4ecc5fe45c1df56915e0dea7486f3dd3bd5fee499130d39a15bf4158d2f9210",
+        "size": 5358
+      },
+      {
+        "path": "backend/directordeck/workflow/v6_projection.py",
+        "sha256": "2dedbc4451f7177d4190a420ad93d966242dd0c171d5f6c9b83b55676178037a",
+        "size": 17421
+      },
+      {
+        "path": "backend/directordeck/workflow/v6_registry.py",
+        "sha256": "569b31488c9fda27ce3b49fef0b4a111f5d3a56d2c6ff659031946184d5e007a",
+        "size": 9818
+      },
+      {
+        "path": "dist/assets/index-AVgLfN1F.js",
+        "sha256": "6da9aae2a03e897f9cea95e8991604aab796c28f0e0725346f6b039305aeb502",
+        "size": 735327
+      },
+      {
+        "path": "dist/assets/index-WDibbSfC.css",
+        "sha256": "61f549f968f22f0da8a3477ca548b06ba387a6cdc6b9c4b15aa47103a63c6e5c",
+        "size": 164616
       },
       {
         "path": "dist/index.html",
-        "sha256": "424841524dae7994f426c5b980b6e5948779a2a1e08e4f099282900b610fc2be",
+        "sha256": "39cb5feeebd67136a092e06bfe37f5fa1f42147cec81d34b9096c3fe2dcec723",
         "size": 595
       },
       {
@@ -1194,8 +1289,8 @@
       },
       {
         "path": "pyproject.toml",
-        "sha256": "81e6a5703f65592a1b5d6202825e6ef4eb6ad88500f37670ebf57006d23915f6",
-        "size": 734
+        "sha256": "28f4aebd01a43df92e000a196197bf22ec6b27505860edba75b0c1cb1bdaa3f8",
+        "size": 735
       },
       {
         "path": "requirements-raylight.txt",
@@ -1214,7 +1309,7 @@
       }
     ],
     "scope": "all generated package files except PROVENANCE.json",
-    "tree_sha256": "9bad753460518da51deadc89312d6abbeb94541e5e1f3c2f7a46fb5fdd0ffcfc"
+    "tree_sha256": "4fa312107e90712911fd2a6c88a0bb2321a0f7f26b927afe2bfdbeb44707b18f"
   },
   "generated_by": "tools/build_plugin.py",
   "lockfiles": [
@@ -1231,11 +1326,11 @@
   ],
   "package": {
     "name": "director-deck",
-    "version": "0.2.9"
+    "version": "0.2.10"
   },
   "schema_version": 1,
   "source": {
-    "commit": "279764835ac7280f047ca5d4a05da99087b2012c",
+    "commit": "590afe7df0f3a1136819f72b42678e279ccc1af4",
     "dirty": false
   },
   "toolchain": {
