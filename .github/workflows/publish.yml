@@ -44,13 +44,6 @@ jobs:
           persist-credentials: false
       - name: Recheck public source privacy
         run: python source/tools/check_release.py
-      - name: Verify final repository against clean public source
-        run: >-
-          python source/tools/check_plugin_package.py
-          --package-dir package
-          --source-root source
-          --final-repository
-          --require-clean-source
       - name: Install hash-locked Registry publisher
         run: >-
           python -m pip install
@@ -62,6 +55,13 @@ jobs:
         run: |
           python -m pip check
           python -c 'import importlib.metadata; assert importlib.metadata.version("comfy-cli") == "1.10.3"'
+      - name: Verify final repository against clean public source
+        run: >-
+          python source/tools/check_plugin_package.py
+          --package-dir package
+          --source-root source
+          --final-repository
+          --require-clean-source
       - name: Publish
         working-directory: package
         env:
